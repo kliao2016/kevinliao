@@ -46,6 +46,10 @@ body {
         margin-left: 5;
     }
 }
+
+.info-section {
+    margin-bottom: 18vh;
+}
 /* ========================== End Overall Styling =========================== */
 
 /* ============================= Navbar Styling ============================ */
@@ -84,13 +88,13 @@ body {
 
 .container .info-title {
     font-weight: 600;
-    margin-bottom: 8vh !important;
+    margin-bottom: 3em !important;
 }
 /* ========================== End Navbar Styling =========================== */
 
 /* ============================== Intro Styling ============================= */
 #intro {
-    margin-bottom: 20vh;
+    margin-bottom: 21vh;
 }
 
 #intro img {
@@ -115,4 +119,14 @@ body {
 
 .experience-row {
     margin-bottom: 5em;
+}
+/* ======================== End Experience Styling ========================= */
+
+/* ============================= Project Styling =========================== */
+.project-button {
+    box-shadow: none;
+}
+
+.project-card {
+    height: 100%;
 }
