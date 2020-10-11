@@ -83,7 +83,7 @@ gulp.task('img-compression', function() {
   gulp.src('./img/*')
     .pipe(imagemin([
       imagemin.gifsicle({interlaced: true}),
-      imagemin.jpegtran({progressive: true}),
+      imagemin.mozjpeg({progressive: true}),
       imagemin.optipng({optimizationLevel: 5}),
       imagemin.svgo({
         plugins: [
@@ -105,7 +105,7 @@ gulp.task('live-server', function() {
 });
 
 // Watch on everything
-gulp.task('wath', function() {
+gulp.task('watch', function() {
   gulp.watch("scss/**/*.scss", gulp.series('css-compile'));
   gulp.watch(["dist/css/*.css", "!dist/css/*.min.css"], gulp.series('css-minify'));
   gulp.watch("js/**/*.js", gulp.series('js-build'));
@@ -115,7 +115,7 @@ gulp.task('wath', function() {
 })
 
 // Watch on everything
-gulp.task('run', gulp.parallel('live-server', 'wath'));
+gulp.task('run', gulp.parallel('live-server', 'watch'));
 
 function getJSModules() {
   delete require.cache[require.resolve('./js/modules.js')];
