@@ -11,6 +11,10 @@ html, body {
     font-family: "sofia-pro", sans-serif !important;
 }
 
+footer {
+    margin-top: 60px;
+}
+
 #background-mask {
     background: url("")no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -33,9 +37,13 @@ body {
 }
 
 @media (min-width: 980px) {
-    #intro-about-button, #intro-resume-button {
+    .intro-button {
         margin-left: 0;
         margin-right: 20px;
+    }
+
+    #intro-column {
+        margin-left: 5;
     }
 }
 /* ========================== End Overall Styling =========================== */
@@ -73,15 +81,38 @@ body {
 #social .nav-link {
     padding: 0.5rem 0.5rem;
 }
+
+.container .info-title {
+    font-weight: 600;
+    margin-bottom: 8vh !important;
+}
 /* ========================== End Navbar Styling =========================== */
 
-/* ============================== About Styling ============================= */
-#about img {
+/* ============================== Intro Styling ============================= */
+#intro {
+    margin-bottom: 20vh;
+}
+
+#intro img {
     border-radius: 175px;
 }
 
-#about .jumbotron {
+#intro .jumbotron {
     box-shadow: none;
 }
 
-/* ============================ End About Styling =========================== */
+#intro-text {
+    font-weight: 600;
+}
+
+/* ============================ End Intro Styling =========================== */
+
+/* =========================== Experience Styling ========================== */
+.experience-subtitle {
+    color: darkgray;
+    margin-bottom: 25px !important;
+}
+
+.experience-row {
+    margin-bottom: 5em;
+}
