@@ -109,6 +109,9 @@ body {
     font-weight: 600;
 }
 
+.intro-button {
+    border-radius: 5px;
+}
 /* ============================ End Intro Styling =========================== */
 
 /* =========================== Experience Styling ========================== */
@@ -129,4 +132,15 @@ body {
 
 .project-card {
     height: 100%;
+    border-radius: 10px;
+}
+
+.card-footer {
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+}
+
+#github-button {
+    border-radius: 5px;
+    border: 2px solid darkseagreen;
 }
