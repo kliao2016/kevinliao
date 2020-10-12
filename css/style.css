@@ -150,6 +150,7 @@ body {
 .card-footer {
     border-bottom-left-radius: 10px !important;
     border-bottom-right-radius: 10px !important;
+    padding-bottom: 0;
 }
 
 #github-button {
