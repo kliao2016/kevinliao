@@ -38,6 +38,10 @@ body {
     .trailing-card-column {
         margin-top: 20px;
     }
+
+    #intro-photo-column {
+        margin-bottom: 50px;
+    }
 }
 
 @media (min-width: 980px) {
@@ -46,8 +50,12 @@ body {
         margin-right: 20px;
     }
 
+    #intro-photo-column {
+        margin-right: 2em;
+    }
+
     #intro-column {
-        margin-left: 5;
+        margin-left: 2em;
     }
 }
 
