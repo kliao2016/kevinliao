@@ -35,12 +35,14 @@ body {
         padding-top: 120px;
     }
 
-    .trailing-card-column {
-        margin-top: 35px;
-    }
-
     #intro-photo-column {
         margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 768) {
+    .trailing-card-column {
+        margin-top: 35px;
     }
 }
 
@@ -149,6 +151,10 @@ footer {
 .project-card {
     height: 100%;
     border-radius: 10px;
+}
+
+.project-card-column {
+    height: 100%;
 }
 
 .card-footer {
