@@ -1,1 +1,1 @@
-Updating personal website
+Updated personal website describing my job experience and projects
