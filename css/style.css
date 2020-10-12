@@ -38,9 +38,7 @@ body {
     #intro-photo-column {
         margin-bottom: 50px;
     }
-}
 
-@media (max-width: 768) {
     .trailing-card-column {
         margin-top: 35px;
     }
