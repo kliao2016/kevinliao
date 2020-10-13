@@ -8,8 +8,9 @@ header,
 } */
 
 html, body {
-    font-family: "sofia-pro", sans-serif !important;
+    font-family: "sofia-pro" sans-serif !important;
     max-width: 100%;
+    overflow-x: hidden;
 }
 
 footer {
@@ -29,7 +30,6 @@ body {
     -webkit-scroll-behavior: smooth; /* For Chrome, Safari */
     -moz-scroll-behavior: smooth; /* Fix Firefox smooth scroll */
     scroll-behavior: smooth;
-    overflow-x: hidden;
 }
 @media (max-width: 979px) {
     body {
