@@ -7,8 +7,9 @@ header,
     height: 100%;
 } */
 
-html, body {
+html, body, footer {
     font-family: "sofia-pro", sans-serif !important;
+    overflow-x: hidden;
 }
 
 footer {
