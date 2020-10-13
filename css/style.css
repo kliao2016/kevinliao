@@ -9,7 +9,6 @@ header,
 
 html, body {
     font-family: "sofia-pro", sans-serif !important;
-    overflow-x: hidden;
     max-width: 100%;
 }
 
