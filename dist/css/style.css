@@ -7,9 +7,10 @@ header,
     height: 100%;
 } */
 
-html, body, footer {
+html, body {
     font-family: "sofia-pro", sans-serif !important;
     overflow-x: hidden;
+    max-width: 100%;
 }
 
 footer {
