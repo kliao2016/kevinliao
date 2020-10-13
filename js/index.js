@@ -1,6 +1,13 @@
 $(document).ready(function() {
-    /* Smooth scroll for general nav link */
     setupSmoothScroll();
+
+    $(".btn[data-toggle='collapse']").click(function() {
+        if ($(this).text().trim() == 'Read more') {
+            $(this).text('Read less');
+        } else {
+            $(this).text('Read more');
+        }
+    });
 });
 
 function setupSmoothScroll() {
